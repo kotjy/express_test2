@@ -1,0 +1,47 @@
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 100px 300px 100px 100px 100px;
+  grid-template-rows: 60px;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  background: #ccc;
+  border: #ccc;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.back-main {
+  grid-column: 1/2;
+}
+
+.about {
+  grid-column: 3/4;
+}
+
+.portfolio {
+  grid-column: 4/5;
+}
+
+.contact {
+  grid-column: 5/6;
+}
